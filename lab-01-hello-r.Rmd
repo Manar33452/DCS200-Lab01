@@ -1,8 +1,8 @@
 ---
 title: "Lab 01 - Hello R"
-author: "manar mohsen al-mutairi "
+author: "manar mohsen almutairi "
 date: "1/2/2021"
-output:html_document
+output: html_document
 ---
 
 University ID: 2201000526
@@ -22,3 +22,12 @@ library(datasauRus)
 > head(datasaurus_dozen)
 >summary(datasaurus_dozen)
 >View(datasaurus_dozen).)
+
+answer Task 2
+(>datasaurus_dozen %>%count(dataset) %>%print(13) > dino_data <- datasaurus_dozen %>%filter(dataset == "dino") > gplot(data = dino_data, mapping = aes(x = x, y = y)) +geom_point() > dino_data %>%summarize(r = cor(x, y)) ) 
+
+answer Task 3 
+(> star_data <- datasaurus_dozen %>%filter(dataset == "star") > ggplot(data = star_data, mapping = aes(x = x, y = y)) +geom_point() > star_data %>%summarize(r = cor(x, y)) )
+
+answer Task 4 (> circle_data <- datasaurus_dozen %>%filter(dataset == "circle") > ggplot(data = circle_data, mapping = aes(x = x, y = y)) +geom_point() > circle_data %>%summarize(r = cor(x, y)) )
+
