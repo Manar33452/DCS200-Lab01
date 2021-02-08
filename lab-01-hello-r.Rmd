@@ -2,7 +2,7 @@
 title: "Lab 01 - Hello R"
 author: "manar mohsen al-mutairi "
 date: "1/2/2021"
-output: html_document
+output:html_document
 ---
 
 University ID: 2201000526
@@ -17,4 +17,8 @@ library(datasauRus)
 
 ### Lab Exercise
 
-(Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See 'Load Packages' above as an example. Delete everything in these brackets after typing your answer.)
+(>library(tidyverse)
+> library(datasauRus)
+> head(datasaurus_dozen)
+>summary(datasaurus_dozen)
+>View(datasaurus_dozen).)
